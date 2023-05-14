@@ -1,0 +1,36 @@
+.main-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-title {
+	font-size: 12px;
+	font-weight: 500;
+	color: gray;
+}
+
+.btn {
+	outline: none;
+	background-color: transparent;
+	border-radius: 0.3rem;
+	border: 1px solid gray;
+	padding: 0.7rem 1rem;
+	margin-left: 1.6rem;
+	cursor: pointer;
+}
+
+.lang-btn {
+	color: gray;
+}
+
+.feedback-btn {
+	color: rgb(0, 115, 255);
+}
